@@ -1,0 +1,109 @@
+ body{
+background-color: black;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.amarela{
+    background-color: yellow;
+  
+    grid-area: amarela;
+}
+.amarela-1{
+    background-color: yellow;
+  
+    grid-area: amarela-1;
+}
+.amarela-2{
+    background-color: yellow;
+  
+    grid-area: amarela-2;
+}
+.amarela-3{
+    background-color: yellow;
+  
+    grid-area: amarela-3;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 30vh 40vh 20vh 40vh;
+    grid-template-areas: 'branca amarela azul vermelha vermelha amarela-1 branca-1'
+                         'branca-2 branca-2 branca-2 branca-2 azul-1 vermelha-1 branca-3'
+                         'branca-4 branca-4 vermelha-2 vermelha-2 branca-5 amarela-2 branca-6'
+                         'branca-7 azul-2 amarela-3 amarela-3 branca-8 branca-8 branca-8'
+
+
+}
+.azul{
+    background-color: blue;
+    
+    grid-area: azul;
+}
+.azul-1{
+    background-color: blue;
+   
+    grid-area: azul-1;
+}
+.azul-2{
+    background-color: blue;
+   
+    grid-area: azul-2;
+}
+.branca{
+    background-color: white;
+   
+    grid-area: branca;
+}
+.branca-1{
+    background-color: white;
+
+    grid-area: branca-1;
+}
+.branca-2{
+    background-color: white;
+   
+    grid-area: branca-2;
+}
+.branca-3{
+    background-color: white;
+    grid-area: branca-3;
+}
+.branca-4{
+    background-color: white;
+    grid-area: branca-4;
+}
+.branca-5{
+    background-color: white;
+    grid-area: branca-5;
+}
+.branca-6{
+    background-color: white;
+    grid-area: branca-6;
+}
+.branca-7{
+    background-color: white;
+    grid-area: branca-7;
+}
+.branca-8{
+    background-color: white;
+    grid-area: branca-8;
+}
+.vermelha{
+    background-color: red;
+   
+    grid-area: vermelha;
+}
+.vermelha-1{
+    background-color: red;
+   
+    grid-area: vermelha-1;
+}
+.vermelha-2{
+    background-color: red;
+   
+    grid-area: vermelha-2;
+}
+
