@@ -27,15 +27,18 @@ padding: 0;
 }
 
 .container{
+
     display: grid;
-    grid-template-columns: 1fr 2fr 4fr 2fr 2fr 2fr 1fr;
-    grid-template-rows: 30vh 40vh 20vh 40vh;
+    grid-template-columns: 50px 100px 300px 100px 200px 50px 70px;
+    grid-template-rows: 180px 210px 80px 80px;
     grid-template-areas: 'branca amarela azul vermelha vermelha amarela-1 branca-1'
-                         'branca-2 branca-2 branca-2 branca-2 azul-1 vermelha-1 branca-3'
-                         'branca-4 branca-4 vermelha-2 vermelha-2 branca-5 amarela-2 branca-6'
-                         'branca-7 azul-2 amarela-3 amarela-3 branca-8 branca-8 branca-8'
-
-
+                         'branca-2 branca-9 branca-10 branca-3 azul-1 vermelha-1 branca-6'
+                         'branca-7 branca-4 vermelha-2 vermelha-2 branca-5 amarela-2 branca-6'
+                         'branca-7 azul-2 amarela-3 amarela-3 branca-8 branca-8 branca-11';
+grid-gap: 10px;
+justify-content: center;
+align-content: center;
+margin-top: 30px;
 }
 .azul{
     background-color: blue;
@@ -90,7 +93,23 @@ padding: 0;
 .branca-8{
     background-color: white;
     grid-area: branca-8;
+    
 }
+.branca-9{
+    background-color: white;
+
+    grid-area: branca-9;
+}
+.branca-10{
+    background-color: white;
+
+    grid-area: branca-10;
+    }
+.branca-11{
+        background-color: white;
+    
+        grid-area: branca-11;
+ }
 .vermelha{
     background-color: red;
    
